@@ -1,7 +1,154 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgb(245, 245, 245);
+            }
+            
+            li a {
+              display: block;
+              color: rgb(0, 0, 0);
+              padding: 20px 60px;
+              text-decoration: none;
+            }
+        
+            img {
+                width: 25%;
+                padding-top: 12px;
+            }
+
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                padding-top: 100px;
+            }
+
+            .flex-container > div {
+                background-color: rgb(245, 245, 245);
+                width: 320px;
+                margin: 10px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 30px;
+                border: solid rgb(0, 0, 0) 1px;
+                font-size: medium;
+                font-family: Verdana, Geneva, sans-serif;
+            }
+
+            .blockcolour {
+                background-color: rgb(228, 228, 228);
+            }
+
+            input[type=submit] {
+                background-color: rgb(255, 210, 0);
+                color: rgb(0, 0, 0);
+                padding: 5px 8px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            input[type=text] {
+                padding: 5px 5px;
+                width: 250px;
+            }
+
+            #main-content {
+                float: right;
+                width: 90%
+            }
+
+            #iconlayer {
+                width: 1100px;
+                padding: 100px 0 0 50px;
+            }
+
+            #ytvid {
+                display: table;
+                margin: auto;
+                padding-top: 100px;
+            }
+        </style>
+    </head>
 </html>
+    <body style="background-color: rgb(245, 245, 245)" >
+        <p>Hi I'm hosting on Git Pages</p>
+        <div class="navbar">
+            <ul>
+                <li style="float:right"><a class="active" href="#about">Features</a></li>
+                <li style="float:right"><a class="active" href="#howitworks">How It Works</a></li>
+                <li style="float:right"><a class="active" href="#pricing">Pricing</a></li>
+                <li><img src="original_trombones.png" alt="Trombone Logo" style="float:left"></li>
+            </ul>
+        </div>
+        <div class="main">
+        <h1 id="a">Handcrafted, home-made masterpieces</h1>
+        <div id="textselect">
+            <form action="/action_page.php">
+                <input id="email-label" type="text" name="email" placeholder="Enter your email address">
+                <br><br>
+                <input id="button" type="submit" value="GET STARTED">
+            </form> 
+        </div>
+        <div id="iconlayer">
+            <div id="main-content">
+                <img class="iconpic" src="firelogo.png" alt="Fire Icon">
+                <h3 id="b">Premium Materials</h3>
+                <p id="c">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div id="main-content">
+                <img class="iconpic" src="trucklogo.png" alt="Truck Icon">
+                <h3 id="b">Fast Shipping</h3>
+                <p id="c">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div id="main-content">
+                <img class="iconpic" src="batterylogo.png" alt="Battery Icon">
+                <h3 id="b">Quality Assurance</h3>
+                <p id="c">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+        <div id="ytvid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flex-container">
+            <div><div class="blockcolour"><b>TENOR TROMBONE<br></div>
+                $600</b><br>
+                Lorem ipsum.<br>
+                Lorem ipsum.<br>
+                Lorem ipsum dolor.<br>
+                Lorem ipsum.<br>
+                <input id="button" type="submit" value="SELECT"></div>
+            <div><div class="blockcolour"><b>BASS TROMBONE<br></div>
+                $900</b><br>
+                Lorem ipsum.<br>
+                Lorem ipsum.<br>
+                Lorem ipsum dolor.<br>
+                Lorem ipsum<br>
+                <input id="button" type="submit" value="SELECT"></div>
+            <div><div class="blockcolour"><b>VALVE TROMBONE<br></div>
+                $1200</b><br>
+                Plays similar to a Trumpet<br>
+                Great for Jazz Bands<br>
+                Lorem ipsum dolor.<br>
+                Lorem ipsum.<br>
+                <input id="button" type="submit" value="SELECT"></div>  
+        </div>
+        </div>
+        <div id="box">
+            <ul class="secondul">
+                <li style="float:right"><a class="active" href="#privacy">Privacy</a></li>
+                <li style="float:right"><a class="active" href="#terms">Terms</a></li>
+                <li style="float:right"><a class="active" href="#contacts">Contacts</a></li>
+            </ul>
+            <p class="copyright" style="float:right">Copyright 2016, Original Trombones</p>
+        </div>
+    </body>
