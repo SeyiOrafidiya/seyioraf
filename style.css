@@ -1,0 +1,66 @@
+#a {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: x-large;
+  }
+
+#b {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+#c {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+#button {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#textselect {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay that is equal or larger than the height of your menu. */
+}
+
+#box {
+  position: relative;
+  margin: 0% auto;
+  height: 50px;
+  width: 1000px;
+  background-color: rgb(228, 228, 228);
+  padding: 30px 10px 30px;
+  border-radius: 1px;
+  top: 25px;
+}
+
+.secondul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(228, 228, 228);
+}
+
+.copyright {
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+  color: rgb(100, 100, 100);
+}
+
+.iconpic {
+  float: left;
+  width: 7%
+}
